@@ -4,7 +4,7 @@ const rlp = require('rlp');
 const keccak = require('keccak');
 const wallet = require('ethereumjs-wallet');
 
-const pattern = new RegExp('^5e74'); // replace pattern to find
+const pattern = new RegExp('^5e74'); // (Input should be all lowercase) replace pattern to find
 let found = false;
 let runs = 0;
 
