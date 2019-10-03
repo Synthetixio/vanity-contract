@@ -10,7 +10,7 @@ Prints out wallet address + privateKey.
 Address pattern to find can be changed in index.js, ie 0x5e74.....
 
 ```
-const pattern = new RegExp('^5e74'); // replace pattern to find
+const pattern = new RegExp('^5e74'); // replace pattern to find (should all be in lowercase)
 ```
 
 # Run in PM2 cluster mode
